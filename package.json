@@ -1,8 +1,8 @@
 {
-  "name": "wallet-adapter-plugin-template",
-  "version": "0.2.0",
-  "description": "Adapter template plugin to use with Aptos Wallet Adapter",
-  "author": "Aptos",
+  "name": "@onekeyfe/aptos-wallet-adapter",
+  "version": "0.1.0",
+  "description": "OneKey Wallet plugin to use with Aptos Wallet Adapter",
+  "author": "dev-fe@onekey.so",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
