@@ -1,4 +1,4 @@
-# Aptos wallet plugin template for wallet builders to interact with the Aptos Wallet Adapter
+# OneKey wallet for wallet builders to interact with the Aptos Wallet Adapter
 
 This repo provides wallet builders a pre-made class with all required wallet functionality following the [wallet standard](https://aptos.dev/standards/wallets) for easy and fast development to interact with the [Aptos Wallet Adapter](https://github.com/aptos-labs/aptos-wallet-adapter)
 
@@ -8,20 +8,6 @@ This repo provides wallet builders a pre-made class with all required wallet fun
 
 - `fork` this repo
 - run `npm install` or `yarn install`
-- Open `src/index.ts`
-- Change all `AptosWindow` appereances to `<Your-Wallet-Name>Window`
-- Change `AptosWalletName` to be `<Your-Wallet-Name>WalletName`
-- Change `url` to match your website url
-- Change `icon` to your wallet icon (pay attention to the required format)
-
-- Change `window.aptos` to be `window.<your-wallet-name>`
-
-> **_NOTE:_** Ensure the `name` prop is the same as the `window.<name>`. The adapter will look for the matching name when detecting a wallet. For example, if your wallet's name prop is `Petra`, then the window should be `window.petra`.
-
-> **_NOTE2_** window object key (i.e `window.<name>`) has to be lowercase exact match (`petra`). Wallet name prop can have capitalization (`Petra` / `PetraWallet`)
-
-- Make sure the `Window Interface` has `<your-wallet-name>` as a key (instead of `aptos`)
-- Open `__tests/index.test.tsx` and change `AptosWallet` to `<Your-Wallet-Name>Wallet`
 - Run tests with `npm run test` - all tests should pass
 
 At this point, you have a ready wallet class with all required properties and functions to integrate with the Aptos Wallet Adapter.
