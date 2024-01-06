@@ -1,6 +1,6 @@
 {
   "name": "@onekeyfe/aptos-wallet-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OneKey Wallet plugin to use with Aptos Wallet Adapter",
   "author": "dev-fe@onekey.so",
   "main": "./dist/index.js",
